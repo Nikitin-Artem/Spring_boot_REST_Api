@@ -5,8 +5,8 @@ USE spring_boot_rest_api;
 -- Table structure for table `customer`
 --
 
-DROP TABLE IF EXISTS `customer`;
-CREATE TABLE `customer` (
+DROP TABLE IF EXISTS employee;
+CREATE TABLE employee (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `first_name` varchar(45) DEFAULT NULL,
   `last_name` varchar(45) DEFAULT NULL,
@@ -18,7 +18,7 @@ CREATE TABLE `customer` (
 -- Dumping data for table `customer`
 --
 
-INSERT INTO `customer` VALUES 
+INSERT INTO employee VALUES
 	(1,'David','Adams','david@mail.com'),
 	(2,'John','Doe','john@gmail.com'),
 	(3,'Ajay','Rao','ajay@gmail.com'),
